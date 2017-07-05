@@ -8,6 +8,7 @@ class App extends Component {
       <div>
         <Header />
         <Skills />
+        changes made
       </div>
     );
   }
