@@ -8,7 +8,7 @@ class Skills extends Component {
     return (
 
         <Row>
-          <Col xs={8} xsOffset={2}>
+          <Col xs={10} xsOffset={1} md={8} mdOffset={2}>
             <a name="skills"></a>
             <h2 id="skillsH2">SKILLS</h2>
               <ul id="skill">
