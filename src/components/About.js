@@ -4,8 +4,9 @@ import { Col, Row } from 'react-bootstrap';
 class About extends Component {
   render() {
     return (
-      <a name="aboutMe"></a>
+
         <Row id="aboutMe">
+        <a name="aboutMe"></a>
           <Col xs={12} md={5} mdOffset={1}>
             <Row id="aboutMeLeft">
               <Col xs={12} md={8} mdOffset={2}>

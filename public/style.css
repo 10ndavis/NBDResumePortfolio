@@ -51,7 +51,7 @@ h2 {
 }
 
 
-/*<---------------------------------------------SKILLS-------------------------------------------->*/
+/*<---------------------------------------------ICONS-------------------------------------------->*/
 #iconContainer {
   margin-top: 4vmax;
   text-align: center;
@@ -73,6 +73,7 @@ h2 {
   margin-bottom: 25px;
   background-color: white;
   color: black;
+  font-weight: bold;
 }
 
 #aboutMeLeft {
@@ -83,7 +84,6 @@ h2 {
 #aboutMeRight {
   border: solid 1px white;
   margin-bottom: 40px;
-
 }
 
 #contactInfo{
