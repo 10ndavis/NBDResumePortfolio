@@ -4,7 +4,7 @@ import { Col, Row } from 'react-bootstrap';
 class About extends Component {
   render() {
     return (
-      <a name="aboutMe">
+      <a name="aboutMe"></a>
         <Row id="aboutMe">
           <Col xs={12} md={5} mdOffset={1}>
             <Row id="aboutMeLeft">
@@ -31,7 +31,6 @@ class About extends Component {
             </Row>
           </Col>
         </Row>
-      </a>
     );
   }
 }
