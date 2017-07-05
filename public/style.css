@@ -1,10 +1,28 @@
+html {
+  height: 100%;
+}
 body {
   background: #313c4c;
   color: white;
+  height: 100%;
+  font-family: "zipper";
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+#app {
+  position:relative;
+  margin-bottom: -20px;
+  min-height: 100%;
 }
 
 
-
+@font-face {
+    font-family: zipper;
+    src: url(/fonts/zipper.otf);
+}
 /*<-----------------------------------------HEADER----------------------------------------->*/
 
 #header {
@@ -34,24 +52,47 @@ body {
   margin-top: 4vmax;
   text-align: center;
 }
-#aboutMeIcon {
+.icon {
   height: 5vmax;
   margin-left: 10px;
   margin-right: 10px;
 }
 
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.2); }
 
+/*<---------------------------------------------ABOUT ME-------------------------------------------->*/
 
+#aboutMe {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  background-color: white;
+  color: black;
+}
 
+#aboutMeLeft {
+  border: solid 1px white;
+}
 
+#aboutMeRight {
+  border: solid 1px white;
+}
+
+#contactInfo{
+
+}
 /*<-------------------------------------------FOOTER---------------------------------------------->*/
 footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  position: relative;
+  bottom: -100px;
   height: 20px;
   width: 100%;
-  overflow:hidden;
   text-align: center;
   font-size: .6em;
+}
+
+#clearfooter {
+height: 20px;
+clear: both;
 }
