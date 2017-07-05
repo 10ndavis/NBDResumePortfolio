@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: #313c4c;
   color: white;
 }
 
@@ -27,6 +27,20 @@ body {
   color: black;
   background-color: white;
 }
+
+
+/*<---------------------------------------------SKILLS-------------------------------------------->*/
+#iconContainer {
+  margin-top: 4vmax;
+  text-align: center;
+}
+#aboutMeIcon {
+  height: 5vmax;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
 
 
 

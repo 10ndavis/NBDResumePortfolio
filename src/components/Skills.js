@@ -5,8 +5,11 @@ class Skills extends Component {
   render() {
     return (
       <Row>
-        <Col xs={10} xsOffset={1}>
-          List of Skills
+        <Col id="iconContainer" xs={10} xsOffset={1}>
+          <img id="aboutMeIcon" src={require('./gfx/aboutMe.png')} />
+          <img id="aboutMeIcon" src={require('./gfx/resume.png')} />
+          <img id="aboutMeIcon" src={require('./gfx/network.png')} />
+          <img id="aboutMeIcon" src={require('./gfx/skills.png')} />
         </Col>
       </Row>
     );
