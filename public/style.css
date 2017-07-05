@@ -73,10 +73,13 @@ h2 {
 
 #aboutMeLeft {
   border: solid 1px white;
+  margin-bottom: 40px;
 }
 
 #aboutMeRight {
   border: solid 1px white;
+  margin-bottom: 40px;
+
 }
 
 #contactInfo{

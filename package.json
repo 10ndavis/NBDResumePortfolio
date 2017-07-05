@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
+    "react-bars": "^0.1.2",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.6.1"
   },
