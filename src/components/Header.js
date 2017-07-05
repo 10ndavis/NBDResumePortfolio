@@ -5,8 +5,11 @@ class Header extends Component {
   render() {
     return (
       <Row>
-        <Col xs={12} sm={10} smOffset={1} md={8} mdOffset={2} id="header">
-          This is a header
+        <Col xs={10} xsOffset={1} md={8} mdOffset={2} id="header">
+          NATHAN BREWER-DAVIS
+        </Col>
+        <Col xs={8} xsOffset={2} md={6} mdOffset={3} id="subHeader">
+          - WEB DEVELOPER -
         </Col>
       </Row>
     );
