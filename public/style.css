@@ -3,7 +3,7 @@ html {
 }
 body {
   background: #313c4c;
-  color: white;
+  color: #d9dbdd;
   height: 100%;
   font-family: "zipper";
 }
@@ -32,7 +32,7 @@ h2 {
 #header {
   display: block;
   margin-top: 3vw;
-  border: solid white 2px;
+  border: solid #d9dbdd 2px;
   text-align: center;
   vertical-align: middle;
   line-height: 9vmax;
@@ -47,7 +47,7 @@ h2 {
   line-height: 4vmax;
   font-size: 3vmax;
   color: black;
-  background-color: white;
+  background-color: #d9dbdd;
 }
 
 
@@ -71,18 +71,16 @@ h2 {
   text-align: center;
   margin-top: 100px;
   margin-bottom: 25px;
-  background-color: white;
+  background-color: #d9dbdd;
   color: black;
   font-weight: bold;
 }
 
 #aboutMeLeft {
-  border: solid 1px white;
   margin-bottom: 40px;
 }
 
 #aboutMeRight {
-  border: solid 1px white;
   margin-bottom: 40px;
 }
 
@@ -94,7 +92,7 @@ h2 {
 
 #skill {
   list-style: none;
-  color: white;
+  color: #d9dbdd;
   width: 100%;
   margin: 50px auto 0;
   position: relative;
@@ -224,6 +222,38 @@ h2 {
 @-webkit-keyframes jquery      { 0%  { width:0px;} 85%{ width:85%;}  }
 @-webkit-keyframes angular      { 0%  { width:0px;} 80%{ width:80%;}  }
 @-webkit-keyframes react   { 0%  { width:0px;} 100%{ width:80%;}  }
+
+
+/*<------------------------------------------------RESUME-------------------------------------------->*/
+
+#resume {
+  background-color: #d9dbdd;
+  color: black;
+  font-weight: bold;
+}
+
+#resumeContents {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.resumeDetails {
+  font-weight: normal;
+  color: #828080;
+}
+
+#innerWorkDiv {
+  padding-left: 10px;
+}
+
+/*<------------------------------------------------NETWORK-------------------------------------------->*/
+#network {
+  text-align: center;
+  margin-top: 4vmax;
+}
+
+
+
 
 /*<-------------------------------------------FOOTER---------------------------------------------->*/
 footer {
