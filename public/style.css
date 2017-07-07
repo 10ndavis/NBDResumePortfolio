@@ -242,8 +242,7 @@ h2 {
 }
 
 .resumeDetails {
-  font-weight: 300;
-  color: #333333;
+  color: #4b4c4c;
 }
 
 #innerWorkDiv {
@@ -254,6 +253,10 @@ h2 {
 #network {
   text-align: center;
   margin-top: 4vmax;
+}
+
+#connect {
+  margin-bottom: 30px;
 }
 
 /*<-------------------------------------------FOOTER---------------------------------------------->*/
