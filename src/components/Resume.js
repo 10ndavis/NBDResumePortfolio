@@ -26,16 +26,16 @@ class Resume extends Component {
                   <span className="resumeDetails"><h6>(some currently in development)</h6></span>
                   <ul>
                     <li>Plantr - <span className="resumeDetails">An interactive garden planning and creation application designed to assist gardeners with managing their crops. - <a href="https://organico-plantr.herokuapp.com/
-                      ">https://organico-plantr.herokuapp.com/</a>
+                      " target="_blank">https://organico-plantr.herokuapp.com/</a>
                       </span>
                     </li>
                     <li>Stackets - <span className="resumeDetails">A code snipping website intended to make saving and managing code snippets easier and more organized. - <a href="  https://stackets-orion.herokuapp.com/
-                      ">  https://stackets-orion.herokuapp.com/</a></span></li>
+                      " target="_blank">  https://stackets-orion.herokuapp.com/</a></span></li>
                     <li>Thymer - <span className="resumeDetails">A recipe site designed to aid users in cooking meals by providing step by step instructions, timers, and voice guidance. - <a href=" https://orion-thyme.herokuapp.com/
-                      "> https://orion-thyme.herokuapp.com/</a>
+                      " target="_blank"> https://orion-thyme.herokuapp.com/</a>
                       </span></li>
                     <li>MTGInv - <span className="resumeDetails">A Magic The Gathering website to manage card collections, wish lists, and current card prices. - <a href="https://mtginv.herokuapp.com/
-                      ">https://mtginv.herokuapp.com/</a></span></li>
+                      " target="_blank">https://mtginv.herokuapp.com/</a></span></li>
                   </ul>
               <br/>
                 <h3>Work Experience:</h3>
