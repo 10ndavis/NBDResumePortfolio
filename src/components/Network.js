@@ -6,7 +6,9 @@ class Network extends Component {
     return (
       <Row id="network">
         <Col xs={12} md={8} mdOffset={2}>
-          <h2>Connect with me:</h2>
+          <Col xs={12}>
+            <h2>Connect with me:</h2>
+          </Col>
           <br/>
           <Row>
             <Col xs={4} xsOffset={2} md={3} mdOffset={3}>
